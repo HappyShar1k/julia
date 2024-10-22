@@ -36,7 +36,7 @@ function result(robot):nothing
                 delay = 0
             else 
                 delay += 1
-                if (flag && delay > 1) 
+                if (flag == 1 && delay > 1) 
                     cnt += 1
                     flag = false 
                 end 
