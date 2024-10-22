@@ -14,7 +14,7 @@ function backside(side)
 end
  
 function task22!(r, side)
-    if isborder(r, side) == 0
+    if !isborder(r, side)
         move!(r, side)
         task22!(r, side)
         move!(r, backside(side))
