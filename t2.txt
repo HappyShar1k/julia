@@ -1,4 +1,4 @@
-function result!(robot):Nothing
+function result!(robot)
     a = 0
     b = 0
     while !isborder(robot, Nord)
