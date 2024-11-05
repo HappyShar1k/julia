@@ -1,10 +1,10 @@
-function check(robot, x, y):nothing
+function check(robot, x, y)
     if ((x + y) % 2 == 0)
         putmarker!(robot)
     end
 end
  
-function move_two_sides(robot, x, y):nothing
+function move_two_sides(robot, x, y)
     while x > 0
         move!(robot, West)
         x -= 1
